@@ -1,0 +1,17 @@
+/* @tailwind base;*/
+
+.inline {
+  display: inline
+}
+
+.flex {
+  display: flex
+}
+
+.justify-between {
+  justify-content: space-between
+}
+
+.pb-4 {
+  padding-bottom: 1rem
+} 
