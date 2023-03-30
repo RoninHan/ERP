@@ -12,7 +12,7 @@ import { DepartmentPage } from '@/pages/department';
 
 const routes: RouteProps[] = [
     {
-        path: "/",
+        path: "/user",
         element: <AntdLayout />,
         meta: {
             name: "User",
@@ -20,7 +20,7 @@ const routes: RouteProps[] = [
         },
         children: [
             {
-                path: "/userList", // 路由路径
+                path: "/user/userList", // 路由路径
                 meta: {
                     name: "user"
                 },
@@ -28,7 +28,7 @@ const routes: RouteProps[] = [
 
             },
             {
-                path: "/department", // 路由路径
+                path: "/user/department", // 路由路径
                 meta: {
                     name: "department"
                 },

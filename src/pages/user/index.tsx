@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button, Space } from 'antd';
 import { LTTable } from '@/components/table';
 
+
 export const UserPage = () => {
+
     const searchList: any = [
         {
             type: "text",
